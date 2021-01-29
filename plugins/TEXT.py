@@ -42,7 +42,7 @@ DOWNLOAD = "Downloading file... please wait."
 DOWN_MEGA = "Downloading... \n  Mega Links are \n Extremely Slow :("
 DOWN_COMPLETE = "Download completed."
 NOT_AUTH = "You Are Not Authorized To Using this Bot! \n\nPlease Authorize me by using /auth"
-REVOKE_FAIL = "You Are Already Unauthorised. \nPlease Use /auth to Authorize."
+REVOKE_FAIL = "You Are Already Unauthorized. \nPlease Use /auth to Authorize account."
 AUTH_SUCC = "Authorized Successfully. \n\nNow Send me A direct Link to start download and uploading to your gdrive."
 ALREADY_AUTH = "You Are Already Authorised ! \n\nWanna Change Drive Account? \n\n Use /revoke to logout account"
 AUTH_URL = '<b><a href ="{}">VISIT THIS LINK</a></b> \n\nGenerate And Copy Your Google Drive Token And Send It To Me.'
