@@ -9,7 +9,7 @@ MEGA_EMAIL = "yourtulloh@gmail.com"
 MEGA_PASSWORD = "cintatertolak"
 
 
-START = " Hi {}  \nI am Google Drive Uploader Downloader Link Bot . Please Authorize to use me .By using /auth \n\n For more info /help. @yourtulloh "
+START = " Hi {}  \nI am Google Drive Uploader Downloader Link Bot.\nPlease Authorize to use me .By using /auth \n\n For more info /help. @yourtulloh "
 
 HELP = """   <b>AUTHORISE BOT</b> 
        Use  /auth Command Generate
