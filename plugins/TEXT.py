@@ -9,9 +9,9 @@ MEGA_EMAIL = "yourtulloh@gmail.com"
 MEGA_PASSWORD = "cintatertolak"
 
 
-START = " Hi  <b>{}</b>  \nI am Google Drive Uploader Downloader Link Bot.\nPlease Authorize to use me by using /auth \n\n For more info /help. \n@yourtulloh "
+START = " Hallo  <b>{}</b>  nice to meet you. \nI am Google Drive Uploader Downloader Link Bot.\nPlease Authorize to use me by using /auth \n\n For more info /help. \n@yourtulloh "
 
-HELP = """   <b>Authorize BOT</b> 
+HELP = """   <b>Authorized BOT</b> 
        Use /auth command and generate
        Your Google Drive Token and 
        Send it to the bot.
@@ -41,16 +41,16 @@ DOWN_TWO = True
 DOWNLOAD = "Downloading file... please wait."
 DOWN_MEGA = "Downloading... \n  Mega Links are \n Extremely Slow :("
 DOWN_COMPLETE = "Download completed."
-NOT_AUTH = "You Are Not Authorized To Using this Bot! \n\nPlease Authorise me by using /auth"
-REVOKE_FAIL = "You Are Already Unauthorised. \nPlease Use /auth To Authorize"
-AUTH_SUCC = "Authorized Successfully. \n\nNow Send me A direct Link to start download and uploaded to your gdrive."
+NOT_AUTH = "You Are Not Authorized To Using this Bot! \n\nPlease Authorize me by using /auth"
+REVOKE_FAIL = "You Are Already Unauthorised. \nPlease Use /auth to Authorize."
+AUTH_SUCC = "Authorized Successfully. \n\nNow Send me A direct Link to start download and uploading to your gdrive."
 ALREADY_AUTH = "You Are Already Authorised ! \n\nWanna Change Drive Account? \n\n Use /revoke to logout account"
 AUTH_URL = '<b><a href ="{}">VISIT THIS LINK</a></b> \n\nGenerate And Copy Your Google Drive Token And Send It To Me.'
-UPLOADING = "Download Complete. \nUploading Your file"
-REVOKE_TOK = " Your Account is Revoked! \n\nUse /auth To Re-Authorize Your Google Drive Account."
+UPLOADING = "Download completed. \nUploading... please wait."
+REVOKE_TOK = "Revoked successfully. \n\nUse /auth to Authorized Your Google Drive Account."
 # DOWN_PATH = "Downloads\\" #windows path
 DOWN_PATH = "Downloads/"  # Linux path
-DOWNLOAD_URL = "Uploaded Successfully. \n<b>Filename</b> : {} \n <b> Size</b> : {} MB \n <b>Download :</b>\n {}"
+DOWNLOAD_URL = "<i>Upload successfully.</i> \n\n<b>Filename:</b>\n{}\n<b>Size:</b> {} MB \n<b>Download Link:</b>\n{}"
 AUTH_ERROR = "AUTH Error! Please send me a valid Token or Re-Authorized me."
 OPENLOAD = True
 DROPBOX = True
