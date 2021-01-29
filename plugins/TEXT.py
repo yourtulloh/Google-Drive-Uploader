@@ -9,12 +9,12 @@ MEGA_EMAIL = "yourtulloh@gmail.com"
 MEGA_PASSWORD = "cintatertolak"
 
 
-START = " Hi {}  \nI am Google Drive Uploader Downloader Link Bot.\nPlease Authorize to use me .By using /auth \n\n For more info /help. @yourtulloh "
+START = " Hi {}  \nI am Google Drive Uploader Downloader Link Bot.\nPlease Authorize to use me .By using /auth \n\n For more info /help. - @yourtulloh "
 
-HELP = """   <b>AUTHORISE BOT</b> 
-       Use  /auth Command Generate
+HELP = """   <b>Authorize BOT</b> 
+       Use /auth Command and Generate
        Your Google Drive Token And 
-       Send It To Bot  
+       Send It To Bot.
 <b> You Wanna Change Your Login 
         Account ?</b> \n
         You Can Use /revoke 
@@ -36,17 +36,17 @@ HELP = """   <b>AUTHORISE BOT</b>
         """
 DP_DOWNLOAD = "Dropbox Link !! Downloading Started ..."
 OL_DOWNLOAD = "Openload Link !! Downloading Started ... \n Openload Links Are Extremely Slow"
-PROCESSING = "Processing Your Request ...!!"
+PROCESSING = "Processing Your Request... "
 DOWN_TWO = True
-DOWNLOAD = "Downloading Started ..."
+DOWNLOAD = "Downloading file... plz wait."
 DOWN_MEGA = "Downloading Started... \n  Mega Links are \n Extremely Slow :("
-DOWN_COMPLETE = "Downloading complete !!"
-NOT_AUTH = "You Are Not Authorized To Using this Bot \n\n Please Authorise Me Using /auth"
+DOWN_COMPLETE = "Downloading complete."
+NOT_AUTH = "You Are Not Authorized To Using this Bot! \n\nPlease Authorise Me Using /auth"
 REVOKE_FAIL = "You Are Already UnAuthorised \n. Please Use /auth To Authorise"
 AUTH_SUCC = "Authorized Successfully  !! \n\n Now Send me A direct Link :)"
 ALREADY_AUTH = "You Are Already Authorised ! \n\n Wanna Change Drive Account? \n\n Use /revoke to logout account"
-AUTH_URL = '<a href ="{}">Vist This Url</a> \n\n Generate And Copy Your Google Drive Token And Send It To Me'
-UPLOADING = "Download Complete. \n Uploading Your file"
+AUTH_URL = '<b><a href ="{}">VISIT THIS LINK</a></b> \n\nGenerate And Copy Your Google Drive Token And Send It To Me'
+UPLOADING = "Download Complete. \nUploading Your file"
 REVOKE_TOK = " Your Token is Revoked! \n\n Use /auth To Re-Authorise Your Google Drive Account "
 # DOWN_PATH = "Downloads\\" #windows path
 DOWN_PATH = "Downloads/"  # Linux path
