@@ -9,7 +9,7 @@ MEGA_EMAIL = "yourtulloh@gmail.com"
 MEGA_PASSWORD = "cintatertolak"
 
 
-START = " Hallo  <b>{}</b>  nice to meet you. \nI am Google Drive Uploader Downloader Link Bot.\nPlease Authorize to use me by using /auth \n\n For more info /help. \n@yourtulloh "
+START = " Hallo  <b>{}</b>  nice to meet you. \nI am Google Drive Uploader Downloader Link Bot.\nPlease Authorized the bot by using /auth to start download. \n\n For more info /help. \n@yourtulloh "
 
 HELP = """   <b>Authorized BOT</b> 
        Use /auth command and generate
@@ -44,7 +44,7 @@ DOWN_COMPLETE = "<i>✅ Download successfully.</i>"
 NOT_AUTH = "❗ You Are Not Authorized To Using This Bot! \n\nPlease Authorized bot by using /auth"
 REVOKE_FAIL = "🔓 You Are Already Unauthorized. \nPlease use /auth to Authorized bot."
 AUTH_SUCC = "<i>✅ Authorized Successfully.</i> \n\nNow Send me a direct link to start download and uploading to your gdrive."
-ALREADY_AUTH = "<i>🔐 You Are Already Authorized!</i> \n\nWanna change Google Drive account? \n\n Use /revoke to logout account."
+ALREADY_AUTH = "<i>🔐 You Are Already Authorized!</i>\nWanna change Google Drive account?\nUse /revoke to logout account."
 AUTH_URL = '🔑 <b><a href ="{}">VISIT THIS LINK</a></b> 👈 \n\nGenerate And Copy Your Google Drive Token And Send It To Me.'
 UPLOADING = "<i>✅ Download successfully.</i> \nUploading file... please wait.🔄"
 REVOKE_TOK = "<i>✅ Revoked successfully.</i> \n\nUse /auth to Authorized your Google Drive account."
