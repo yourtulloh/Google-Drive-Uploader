@@ -44,13 +44,13 @@ DOWN_COMPLETE = "<i>✅ Download successfully.</i>"
 NOT_AUTH = "❗ You Are Not Authorized To Using This Bot! \n\nPlease Authorized bot by using /auth"
 REVOKE_FAIL = "🔓 You Are Already Unauthorized. \nPlease use /auth to Authorized bot."
 AUTH_SUCC = "<i>✅ Authorized Successfully.</i> \n\nNow Send me a direct link to start download and uploading to your gdrive."
-ALREADY_AUTH = "<i>🔐 You Are Already Authorized!</i> \n\nWanna change Google Drive account? \n\n Use /revoke to logout account"
+ALREADY_AUTH = "<i>🔐 You Are Already Authorized!</i> \n\nWanna change Google Drive account? \n\n Use /revoke to logout account."
 AUTH_URL = '🔑 <b><a href ="{}">VISIT THIS LINK</a></b> 👈 \n\nGenerate And Copy Your Google Drive Token And Send It To Me.'
 UPLOADING = "<i>✅ Download successfully.</i> \nUploading file... please wait.🔄"
 REVOKE_TOK = "<i>✅ Revoked successfully.</i> \n\nUse /auth to Authorized your Google Drive account."
 # DOWN_PATH = "Downloads\\" #windows path
 DOWN_PATH = "Downloads/"  # Linux path
-DOWNLOAD_URL = "<i>✅ Uploaded successfully.</i> \n\n<b>Filename:</b>\n{}\n<b>Size:</b> {} MB \n<b>Download Link:</b>\n{}"
+DOWNLOAD_URL = "<i>✅ Uploaded successfully.</i> \n\n<b>Filename:</b>\n{}\n<i>Filename sometime broken if with space, please rename it on your Google Drive manager.</i>\n<b>Size:</b> {} MB \n<b>Download Link:</b>\n{}"
 AUTH_ERROR = "❗ AUTH Error! Please send me a valid Token or Re-Authorized me."
 OPENLOAD = True
 DROPBOX = True
