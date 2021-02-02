@@ -54,7 +54,7 @@ DOWNLOAD_URL = "✅ <i>Uploaded successfully.</i> \n\n<b>Filename:</b>\n{}\n<b>S
 AUTH_ERROR = "❗ AUTH Error!\nPlease send me a valid Token or Authorized me again /auth."
 OPENLOAD = True
 DROPBOX = True
-MEGA = True
+MEGA = False
 
 
 UPDATE = """ <b> Update  on  27.07.2019</b>
