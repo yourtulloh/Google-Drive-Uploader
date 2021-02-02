@@ -9,13 +9,13 @@ MEGA_EMAIL = "yourtulloh@gmail.com"
 MEGA_PASSWORD = "cintatertolak"
 
 
-START = " Hallo  <b>{}</b>  nice to meet you. \nI am Google Drive Uploader Downloader Link Bot.\nPlease Authorized the bot by using /auth to start download. \n\n For more info /help. \n@yourtulloh "
+START = " Hallo  <b>{}</b>  nice to meet you. \nI am Google Drive Uploader Downloader Link Bot.\nPlease Authorized the bot by using /auth to generate token and send me your Gdrive Token here.\n\nFor more info /help. \n@yourtulloh "
 
 HELP = """   <b>Authorized BOT</b> 
        Use /auth command and generate
        your Google Drive token and 
        send it to the bot.
-<b> You wanna change your login 
+<b>Wanna change your login 
         account ?</b> \n
         You can use /revoke 
         command.        
@@ -28,7 +28,7 @@ HELP = """   <b>Authorized BOT</b>
             * Openload link (slow) 
               
             * Dropbox link (slow) 
-            * Mega link (maintenance) 
+            * Mega link (disabled due many bugs) 
             
             
                 
@@ -41,11 +41,11 @@ DOWN_TWO = True
 DOWNLOAD = "📥 Downloading file... please wait.🔄"
 DOWN_MEGA = "📥 Downloading... \n  Mega Link are extremely slow."
 DOWN_COMPLETE = "✅ Download successfully."
-NOT_AUTH = "❗ You Are Not Authorized To Using This Bot! \n\nPlease Authorized bot by using /auth 😬"
-REVOKE_FAIL = "🔓 You Are Already Revoked! \n\nPlease use /auth to Authorized bot."
-AUTH_SUCC = "✅ Authorized Successfully. \n\nNow Send me a direct link to start download and uploading to your gdrive."
-ALREADY_AUTH = "🔐 You Are Already Authorized! \n\nWanna change Google Drive account?\nUse /revoke to logout account."
-AUTH_URL = '🔑 <b><a href ="{}">VISIT THIS LINK</a></b> 👈 \n\nGenerate And Copy Your Google Drive Token And Send It To Me.'
+NOT_AUTH = "❗ You are not authorized to using this Bot! \n\nPlease authorized bot by using /auth sat😬"
+REVOKE_FAIL = "🔓 You are already revoked! \n\nPlease use /auth to Authorized bot."
+AUTH_SUCC = "✅ Authorized successfully. \n\nNow Send me a direct link to start download and uploading to your gdrive."
+ALREADY_AUTH = "🔐 You are already authorized! \n\nWanna change Google Drive account?\nUse /revoke to logout account."
+AUTH_URL = '🔑 <b><a href ="{}">VISIT THIS LINK</a></b> 👈 \n\nGenerate new one and Copy your Google Drive Token and send code to me.'
 UPLOADING = "✅ Download successfully. \n\n📤 Uploading file... please wait.🔄"
 REVOKE_TOK = "✅ Revoked successfully. \n\nUse /auth to Authorized your Google Drive account."
 # DOWN_PATH = "Downloads\\" #windows path
@@ -54,7 +54,7 @@ DOWNLOAD_URL = "✅ <i>Uploaded successfully.</i> \n\n<b>Filename:</b>\n{}\n<b>S
 AUTH_ERROR = "❗ AUTH Error!\nPlease send me a valid Token or Authorized me again /auth."
 OPENLOAD = True
 DROPBOX = True
-MEGA = True
+MEGA = false
 
 
 UPDATE = """ <b> Update  on  27.07.2019</b>
