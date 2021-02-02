@@ -159,10 +159,10 @@ def UPLOAD(update, context):
                 print("Downloading Complete Mega :", filename)
                 sent_message.edit_text(TEXT.DOWN_COMPLETE)
 
-                DownloadStatus = True
+                DownloadStatus = False
             except Exception as e:
                 print("Mega Downloding Error :", e)
-                sent_message.edit_text("Mega Downloading Error !!")
+                sent_message.edit_text("Mega Downloading Disabled:due unstable!!")
 
         else:
             try:
